@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: student-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://D:\\workspace\\angular\\student-config-repo
+          search-paths:
+          - student-detail-service
+server:
+  port: 8888    
