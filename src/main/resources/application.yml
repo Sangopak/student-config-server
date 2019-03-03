@@ -8,5 +8,6 @@ spring:
           uri: file://D:\\workspace\\angular\\student-config-repo
           search-paths:
           - student-detail-service
+          - student-client
 server:
   port: 8888    
