@@ -9,5 +9,6 @@ spring:
           search-paths:
           - student-detail-service
           - student-client
+          - eureka-naming-server
 server:
   port: 8888    
