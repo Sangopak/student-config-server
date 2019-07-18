@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: file://D:\\workspace\\angular\\student-config-repo
+          uri: file://D:\\workspace\\student-config-repo
           search-paths:
           - student-detail-service
           - student-client
